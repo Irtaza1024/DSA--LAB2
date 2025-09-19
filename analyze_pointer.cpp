@@ -12,4 +12,6 @@ int main(){
 
 	int * jValue = new int(20);
 	analyze_pointer(jValue);
+
+	delete jValue;
 }

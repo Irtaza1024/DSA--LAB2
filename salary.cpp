@@ -22,6 +22,8 @@ int main() {
 	}
 	cout << endl;
 
+	delete[] salArray;
+
 	return 0;
 
 }
